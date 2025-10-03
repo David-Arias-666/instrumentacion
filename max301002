@@ -1,0 +1,36 @@
+#include <Wire.h>
+#include "MAX30105.h"
+
+MAX30105 pulseSensor;
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println("Iniciando MAX30102...");
+
+  if (!pulseSensor.begin(Wire, I2C_SPEED_STANDARD)) {
+    Serial.println("No se encontró el MAX30102. Revisa conexiones.");
+    while (1);
+  }
+
+  Serial.println("MAX30102 detectado!");
+
+  // Configuración básica
+  pulseSensor.setup();                 
+  pulseSensor.setPulseAmplitudeRed(0xFF);   // Rojo intensidad máxima
+  pulseSensor.setPulseAmplitudeIR(0xFF);    // IR intensidad máxima
+  pulseSensor.setPulseAmplitudeGreen(0);    // Verde apagado
+
+  Serial.println("Deberías ver el LED rojo encendido.");
+}
+
+void loop() {
+  long irValue = pulseSensor.getIR();
+  long redValue = pulseSensor.getRed();
+
+  Serial.print("IR: ");
+  Serial.print(irValue);
+  Serial.print("  RED: ");
+  Serial.println(redValue);
+
+  delay(200);
+}
