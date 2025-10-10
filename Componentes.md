@@ -1,26 +1,26 @@
 Amplificador:
 
-AD8232ARZ-RL
+AD8232ARZ-RL : https://co.mouser.com/ProductDetail/Analog-Devices/AD8226ARMZ-RL?qs=%2FtpEQrCGXCwSJEk21owBSw%3D%3D 
 
 Capacitor:
 
-0.47 µF → QXK2E475KTP
+0.47 µF → QXK2E475KTP: https://co.mouser.com/ProductDetail/Nichicon/QXK2E475KTP?qs=zcDUcsVsD8GEsQv%252BOBTzSw%3D%3D
 
-0.1 µF → C0805J104KTRACAUTO
+0.1 µF → CO805J104K1RACAUTO : https://co.mouser.com/ProductDetail/KEMET/C0805J102K1RACAUTO?qs=2FIyTMJ0hNlq4ADs2sRXNA%3D%3D
 
 2.35 pF → CC2220K5K1RLCUTO
 
 Resistencia:
 
-1K → CRCW08051K00FKEAHP
+1K → CRCW08051K00FKEAHP: https://co.mouser.com/ProductDetail/Vishay/CRCW08051K00FKEAHP?qs=FlFvgi4rxBy%252Bn2DMV%2FkIbA%3D%3D 
 
 Microcontrolador:
 
-ESP32-S3-WROOM-1-N8R8
+ESP32-S3-WROOM-1-N8R8: https://co.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N8R8?qs=sGAEpiMZZMu3sxpa5v1qrgCv7%252BoaLKgfH7xAI5zn0GU%3D
 
 Sensor:
 
-MAX30102EFD+
+MAX30102EFD+T: https://co.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/MAX30102EFD%2bT?qs=nVS1qgv%252BQrkHA4%2FoFYriFA%3D%3D
 
 Resistencias:
 
