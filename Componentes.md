@@ -27,16 +27,16 @@ Resistencias:
 48.1K → RN73H1ETTP4812D25: https://co.mouser.com/ProductDetail/KOA-Speer/RN73H1ETTP4812D25?qs=9tvNVxbbcEr4BETDb25Jug%3D%3D
 
 
-104.1K → RN131JTT1043B50
+104.1K → RN73H1JTTD1043B50 :https://co.mouser.com/ProductDetail/KOA-Speer/RN73H1JTTD1043B50?qs=0hon8nwgHrZuMKHlTZ6mgg%3D%3D
 
-1.2K → ERA-6ARW122V
+1.2K → ERA-6ARW122V : https://co.mouser.com/ProductDetail/Panasonic/ERA-6ARW122V?qs=ob%252BdNz2%252BYEj%252BWeFiHaJGkA%3D%3D
 
 Amplificador operacional:
 
-OPA991IDCKR
+OPA991IDCKR : https://co.mouser.com/ProductDetail/Texas-Instruments/OPA991IDCKR?qs=DRkmTr78QAQlSAmv%252BnilCQ%3D%3D
 
 Reguladores:
 
 Regulador 1.8V → (anotado como -1.8/1.08)
 
-Regulador 3.3V → LP38692MP-3.3/NOPB
+Regulador 3.3V → LP38692MP-3.3/NOPB: https://co.mouser.com/ProductDetail/Texas-Instruments/LP38692MP-3.3-NOPB?qs=1FNqv8aZn1TpKuOP2NKBdg%3D%3D 
