@@ -8,7 +8,7 @@ Capacitor:
 
 0.1 µF → CO805J104K1RACAUTO : https://co.mouser.com/ProductDetail/KEMET/C0805J102K1RACAUTO?qs=2FIyTMJ0hNlq4ADs2sRXNA%3D%3D
 
-2.35 pF → CC2220K5K1RLCUTO
+2.35 pF → 80-C2220X205K1RLAUTO : https://co.mouser.com/ProductDetail/KEMET/C2220X205K1RLCAUTO?qs=CiayqK2gdcLMCQMwe%252Bv4QQ%3D%3D 
 
 Resistencia:
 
@@ -24,7 +24,8 @@ MAX30102EFD+T: https://co.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrat
 
 Resistencias:
 
-48.1K → RN73H2ETTP48102S
+48.1K → RN73H1ETTP4812D25: https://co.mouser.com/ProductDetail/KOA-Speer/RN73H1ETTP4812D25?qs=9tvNVxbbcEr4BETDb25Jug%3D%3D
+
 
 104.1K → RN131JTT1043B50
 
