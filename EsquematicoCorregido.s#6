@@ -1432,8 +1432,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/ref2033"&gt; Datasheet &lt;/a&gt;<
 <wire x1="269.24" y1="45.72" x2="332.74" y2="45.72" width="0.1524" layer="94" style="longdash"/>
 <wire x1="332.74" y1="45.72" x2="332.74" y2="129.54" width="0.1524" layer="94" style="longdash"/>
 <wire x1="332.74" y1="129.54" x2="269.24" y2="129.54" width="0.1524" layer="94" style="longdash"/>
-<wire x1="63.5" y1="208.28" x2="15.24" y2="208.28" width="0.1524" layer="94" style="longdash"/>
-<wire x1="15.24" y1="208.28" x2="15.24" y2="170.18" width="0.1524" layer="94" style="longdash"/>
+<wire x1="63.5" y1="208.28" x2="-7.62" y2="208.28" width="0.1524" layer="94" style="longdash"/>
 <wire x1="15.24" y1="170.18" x2="63.5" y2="170.18" width="0.1524" layer="94" style="longdash"/>
 <wire x1="63.5" y1="170.18" x2="63.5" y2="208.28" width="0.1524" layer="94" style="longdash"/>
 <wire x1="266.7" y1="165.1" x2="266.7" y2="213.36" width="0.1524" layer="94" style="longdash"/>
@@ -1453,6 +1452,8 @@ del profesor</text>
 <text x="121.92" y="14.732" size="1.778" layer="94">7. Agregar conector de 4 pines para la OLED i2c
 8. Agregar Touchpads al esp32 (al menos 3)
 9. Agregar al menos 3 leds por cada touch</text>
+<wire x1="-7.62" y1="208.28" x2="-7.62" y2="170.18" width="0.1524" layer="94" style="longdash"/>
+<wire x1="-7.62" y1="170.18" x2="12.7" y2="170.18" width="0.1524" layer="94" style="longdash"/>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="134.62" y="190.5" smashed="yes" rot="R270">
