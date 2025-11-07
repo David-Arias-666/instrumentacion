@@ -2471,11 +2471,44 @@ design rules under a new name.</description>
 <vertex x="41.148" y="57.785"/>
 <vertex x="34.925" y="57.785"/>
 <vertex x="34.925" y="79.756"/>
+<vertex x="48.133" y="79.756"/>
+<vertex x="48.133" y="73.279"/>
+<vertex x="66.167" y="73.279"/>
+<vertex x="66.167" y="79.756"/>
 <vertex x="70.612" y="79.756"/>
 <vertex x="70.612" y="22.352"/>
 </polygon>
-<wire x1="37.15" y1="54.61" x2="45.4" y2="55.372" width="0" layer="19" extent="1-1"/>
-<wire x1="16.53" y1="19.05" x2="17.46" y2="25.4" width="0" layer="19" extent="1-1"/>
+<polygon width="0.3048" layer="16" orphans="yes">
+<vertex x="48.133" y="80.01"/>
+<vertex x="48.133" y="73.406"/>
+<vertex x="66.167" y="73.406"/>
+<vertex x="66.167" y="80.01"/>
+<vertex x="70.866" y="80.01"/>
+<vertex x="70.866" y="0"/>
+<vertex x="0" y="0"/>
+<vertex x="0" y="57.277"/>
+<vertex x="34.798" y="57.277"/>
+<vertex x="34.798" y="80.01"/>
+</polygon>
+<via x="4.699" y="21.082" extent="1-16" drill="0.35"/>
+<via x="5.207" y="20.193" extent="1-16" drill="0.35"/>
+<via x="5.842" y="21.082" extent="1-16" drill="0.35"/>
+<via x="6.35" y="20.193" extent="1-16" drill="0.35"/>
+<via x="6.985" y="21.082" extent="1-16" drill="0.35"/>
+<via x="7.493" y="20.193" extent="1-16" drill="0.35"/>
+<via x="8.128" y="21.082" extent="1-16" drill="0.35"/>
+<via x="9.271" y="21.082" extent="1-16" drill="0.35"/>
+<via x="8.636" y="20.193" extent="1-16" drill="0.35"/>
+<via x="4.699" y="22.86" extent="1-16" drill="0.35"/>
+<via x="5.842" y="22.86" extent="1-16" drill="0.35"/>
+<via x="6.985" y="22.86" extent="1-16" drill="0.35"/>
+<via x="8.128" y="22.86" extent="1-16" drill="0.35"/>
+<via x="9.271" y="22.86" extent="1-16" drill="0.35"/>
+<via x="5.334" y="23.749" extent="1-16" drill="0.35"/>
+<via x="6.477" y="23.749" extent="1-16" drill="0.35"/>
+<via x="7.62" y="23.749" extent="1-16" drill="0.35"/>
+<via x="8.763" y="23.749" extent="1-16" drill="0.35"/>
+<wire x1="45.4" y1="55.372" x2="37.15" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="C2" pad="2"/>
