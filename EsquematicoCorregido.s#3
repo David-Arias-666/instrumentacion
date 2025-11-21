@@ -12315,6 +12315,12 @@ del profesor</text>
 <wire x1="246.38" y1="63.5" x2="246.38" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="60.96" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="OLED" gate="1" pin="1"/>
+<wire x1="5.08" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="SUPPLY25" gate="GND" pin="GND"/>
+<wire x1="12.7" y1="88.9" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -12846,14 +12852,6 @@ del profesor</text>
 <wire x1="203.2" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
 <junction x="203.2" y="73.66"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="OLED" gate="1" pin="1"/>
-<wire x1="5.08" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="93.98" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="SUPPLY25" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">

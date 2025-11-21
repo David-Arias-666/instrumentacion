@@ -11828,8 +11828,7 @@ del profesor</text>
 <attribute name="NAME" x="158.75" y="218.44" size="1.778" layer="95" rot="R90" align="center-left"/>
 </instance>
 <instance part="IC2" gate="G$1" x="17.78" y="220.98" smashed="yes">
-<attribute name="NAME" x="24.13" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="24.13" y="226.06" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="23.622" y="225.298" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="IC4" gate="G$1" x="279.4" y="226.06" smashed="yes">
 <attribute name="VALUE" x="285.75" y="231.14" size="1.778" layer="96" align="center-left"/>
