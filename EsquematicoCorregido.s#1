@@ -11806,7 +11806,6 @@ del profesor</text>
 <instances>
 <instance part="IC1" gate="G$1" x="109.22" y="203.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.33" y="190.5" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="100.33" y="187.96" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="C1" gate="G$1" x="91.44" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="217.17" size="1.778" layer="95" rot="R180" align="center-left"/>
