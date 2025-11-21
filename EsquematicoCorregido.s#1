@@ -11731,6 +11731,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+1V8"/>
+<part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12078,6 +12079,9 @@ del profesor</text>
 <instance part="+3V13" gate="G$1" x="182.88" y="137.16" smashed="yes"/>
 <instance part="P+1" gate="VCC" x="5.08" y="167.64" smashed="yes">
 <attribute name="VALUE" x="2.54" y="165.1" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V14" gate="G$1" x="177.8" y="81.28" smashed="yes" rot="R270">
+<attribute name="VALUE" x="172.72" y="83.82" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12504,6 +12508,11 @@ del profesor</text>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <wire x1="68.58" y1="88.9" x2="68.58" y2="86.36" width="0.1524" layer="91" style="longdash"/>
 </segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -12772,14 +12781,6 @@ del profesor</text>
 <pinref part="IC4" gate="G$1" pin="EN"/>
 <wire x1="279.4" y1="220.98" x2="269.24" y2="220.98" width="0.1524" layer="91"/>
 <label x="269.24" y="220.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="3V3" class="0">
-<segment>
-<wire x1="167.64" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91" style="longdash"/>
-<label x="175.26" y="81.28" size="1.778" layer="95" rot="R180"/>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="81.28" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO0" class="0">
